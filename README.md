@@ -1,5 +1,5 @@
 
-# Drowsiness Detection System
+# Drowsiness Detection Detection (DDD)
 
 The Drowsiness Detection Project aims to develop a real-time system for accurately detecting and alerting individuals when they exhibit signs of drowsiness. Drowsy driving is a major cause of road accidents and poses a significant threat to public safety. By leveraging computer vision and machine learning techniques, this project seeks to provide an automated solution to monitor driver's alertness levels and mitigate the risks associated with drowsiness-related incidents.
 
