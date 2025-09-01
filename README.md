@@ -1,7 +1,14 @@
 
-# Fatigue (Drowsiness) Detection System
+# Drowsiness Detection System
 
-This project uses computer vision to detect driver drowsiness in real-time using a webcam. If drowsiness is detected, an alarm sound is played to alert the driver.
+The Drowsiness Detection Project aims to develop a real-time system for accurately detecting and alerting individuals when they exhibit signs of drowsiness. Drowsy driving is a major cause of road accidents and poses a significant threat to public safety. By leveraging computer vision and machine learning techniques, this project seeks to provide an automated solution to monitor driver's alertness levels and mitigate the risks associated with drowsiness-related incidents.
+
+The system utilizes a camera-based approach to continuously analyze the driver's facial features, eye movements, and other behavioral cues to determine their level of drowsiness.If drowsiness is detected, an alarm sound is played to alert the driver.
+
+By employing advanced image processing algorithms, the project identifies key facial landmarks and tracks eye movements, such as blink rate and eyelid closure duration, which are prominent indicators of drowsiness.
+
+Additionally, other features like head pose, yawning frequency, and overall facial expressions are also considered to improve the accuracy of the detection system.
+
 
 ## Features
 - Real-time eye aspect ratio (EAR) calculation using MediaPipe Face Mesh
@@ -12,7 +19,7 @@ This project uses computer vision to detect driver drowsiness in real-time using
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/GouthamShanubhogar/Drowsiness-Detection.git
+git clone https://github.com/Lekhana1803/Drowsiness-Detection.git
 cd Fatigue-Detection-System-Based-On-Behavioural-Characteristics-Of-Driver-master
 ```
 
@@ -36,15 +43,6 @@ pip install opencv-python mediapipe numpy scipy playsound
 python blinkDetect.py
 ```
 
-## Notes
-- Requires a working webcam.
-- Tested on Python 3.10+.
-- For best results, run in a well-lit environment.
-
-## Troubleshooting
-- If you get errors about missing packages, ensure you are in the correct virtual environment and have installed all dependencies.
-- If the alarm sound does not play, check that `alarm.wav` exists and is a valid audio file.
-
 ## License
 MIT
 
@@ -53,5 +51,3 @@ MIT
 - MediaPipe Face Mesh
 - OpenCV
 
----
-For more details, see the code and comments in `blinkDetect.py`.
